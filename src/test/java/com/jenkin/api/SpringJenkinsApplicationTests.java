@@ -17,7 +17,8 @@ public class SpringJenkinsApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		logger.info("Test case executing...");
+		logger.info("*** Test case executing...");
+		logger.info("*** log updated in second commit...");
 		assertEquals(true, true);
 	}
 
